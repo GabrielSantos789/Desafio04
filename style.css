@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@700&family=Sriracha&display=swap');
+
+:root {
+    /*Cores e Imagens*/
+    --cor01:#ffffff;
+    --cor02:#000000;
+    --cor02v2:#0000002d;
+    --imagem-fundo01:url('imagens/background001.jpg');
+    --imagem-fundo02:url('imagens/background002.jpg');
+    --sombra:inset 6px 5px 10px rgba(0, 0, 0, 0.445);
+    
+    /*Fontes*/
+    --fonte01:'Passion One', sans-serif;
+    --fonte02:'Sriracha', cursive;
+    --fonte03: Verdana, sans-serif;
+
+    /*Tamanhos*/
+    --tamanho-letras:5.5vh;
+}
+
+* {
+    margin: 0%;
+}
+
+/*----------------------<header>-----------------------------*/
+header {
+    background-color: var(--cor02);
+    color: var(--cor01);
+    text-align: center;
+}
+
+header > h1 {
+    font-family: var(--fonte01);
+    font-size: 4em;
+    padding: 10px;
+}
+
+header > p {
+    padding: 10px;
+    font-family: var(--fonte03);
+    font-size: 1.2em;
+}
+
+header a {
+    color: var(--cor01);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+/*----------------------<main>-----------------------------*/
+
+main {
+    background-color: var(--cor01);
+    font-family: var(--fonte02);
+    color: var(--cor02);
+    font-size: var(--tamanho-letras);
+}
+
+section > p {
+    margin: 40px;
+}
+
+.background01 {
+    background-image:var(--imagem-fundo01);
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 40px;
+    color: var(--cor01);
+    box-shadow: var(--sombra);
+}
+
+.background01 > div {
+    background-color: var(--cor02v2);
+    padding: 13px;
+    max-width: 500px;
+}
+
+.background02 {
+    background-image:var(--imagem-fundo02);
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 40px;
+    color: var(--cor01);
+    box-shadow: var(--sombra);
+}
+
+.background02 > div {
+    background-color: var(--cor02v2);
+    padding: 13px;
+    max-width: 500px;
+}
+
+/*----------------------<footer>-----------------------------*/
+
+footer {
+    background-color: var(--cor02);
+    color: var(--cor01);
+    font-family: var(--fonte03);
+}
+
+footer > p {
+    padding: 10px;
+    text-align: center;
+}
+
+
+footer a {
+    font-weight: bold;
+    color: var(--cor01);
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+
