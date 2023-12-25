@@ -19,7 +19,7 @@
     --fonte03: Verdana, sans-serif;
 
     /*Tamanhos*/
-    --tamanho-letras:5.5vh;
+    --tamanho-letras:3.5vw;
 }
 
 * {
@@ -72,6 +72,7 @@ section > p {
     background-image:var(--imagem-fundo01);
     background-size: cover;
     background-attachment: fixed;
+    background-position: right top;
     padding: 40px;
     color: var(--cor01);
     box-shadow: var(--sombra);
@@ -79,8 +80,8 @@ section > p {
 
 .background01 > div {
     background-color: var(--cor02v2);
-    padding: 13px;
-    max-width: 500px;
+    padding: 10px;
+    display: inline-block;
 }
 
 .background02 {
@@ -94,8 +95,8 @@ section > p {
 
 .background02 > div {
     background-color: var(--cor02v2);
-    padding: 13px;
-    max-width: 500px;
+    padding: 10px;
+    display: inline-block;
 }
 
 /*----------------------<footer>-----------------------------*/
